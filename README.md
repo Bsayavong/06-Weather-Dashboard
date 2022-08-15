@@ -1,19 +1,19 @@
 # 06-Weather-Dashboard
-This is a weather application that will search current and 5 day forecast when a specified city is inputed into the form.
+This is a weather application that will search current and 5 day forecast when a specified city is inputted into the form.
 
-When a city is searched it will automatically save to the user's web browers local storage.
+When a city is searched it will automatically save to the user's web browers local storage. If the user wishes to review past searches the weather forcast can be readily available.
 
 In the event that the user would like to look at a previous entry they can select the preset box to the left.
 
-If the user wishes to remove the city they could also click the reset button to remove all previous searches.
+If the user wanted to remove the city they will click the reset button to remove all previous searches.
 
 Each city will populate live weather conditions such as temperature, humidity, wind and UV index. (All weather conditions will generally be updated within the hour.)
 
-The displayed UV index also utilizes a color as a representation if when the conditions are favorable, moderate, or severe.
+The displayed UV index also utilizes a color as a representation when the conditions are favorable, moderate, or severe.
 
 This challenge was not based of any starter code but some helpful examples were presented and credited to our most recent bootcamp lecture.
 
-When utilized with a web browser it features dynamic and live data provided from OpenWeather One Call API(https://openweathermap.org/api/one-call-api).
+With a web browser this application features dynamic and live data provided from OpenWeather One Call API(https://openweathermap.org/api/one-call-api).
 
 As the publisher, This application is best used for those who are familiar with "imperial" system/measurements as the temperature is only displayed in fahrenheit.
 
@@ -45,4 +45,4 @@ THEN I am again presented with current and future conditions for that city
 ```
 
 
-![my screenshot]
+![my screenshot](./assets/images/Screenshot.png)
