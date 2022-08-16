@@ -133,6 +133,7 @@ var getCurrentRepo = function (city) {
         uvEl.textContent = currentUv;
         var uvRate = Math.round(currentUv);
 
+        //A comparison operator for the UV index in which a rating and color will be defined via stylesheet/bootstrap.
         if (uvRate >= 0 && uvRate <= 2) {
           uvEl.classList = 'uv-low';
         } else if (uvRate >= 3 && uvRate <= 5) {
@@ -165,6 +166,7 @@ var displayForecast = function (repos) {
   forecastEl.classList = 'forecast-container';
   resultsWeather.append(forecastEl);
 
+  //For loop of varibles to display values
   for (var i = 1; i < 6; i++) {
     var forDate = repos[i].temp.day;
     var forIcon = repos[i].weather[0].icon;

@@ -18,7 +18,7 @@ With a web browser this application features dynamic and live data provided from
 As the publisher, This application is best used for those who are familiar with "imperial" system/measurements as the temperature is only displayed in fahrenheit.
 
 
-Github Page:
+Github Page: https://bsayavong.github.io/06-Weather-Dashboard/
 
 ## User Story
 
